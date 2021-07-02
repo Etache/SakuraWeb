@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.main{
+    height: 100vh;
+    background-image: url('../taun/header-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.left img{
+    width: 50%;
+    height: 80%;
+}
+.right img{
+    width: 25px;
+    height: 50px;
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.left{
+    display: flex;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.ramka{
+    border: 40px solid rgb(245, 194, 27);
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.ramke h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.ramka>span{
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.ramka p{
+    margin-bottom: 15px;
+}
+.ramka>a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 194, 27);
+    padding: 10px;
+}
+
+.number{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number img{
+    margin-right: 5px;
+}
+.number span{
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+}
+.location .container>h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.location .container>h1::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    top: 11px;
+    left: -51px;
+}
+#hr{
+    height: 20px;
+    background-color: black;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.itemImg{
+    width: 49%;
+    height: 300px;
+}
+.itemImg img{
+    width: 100%;
+    height: 100%;
+}
+.itemText{
+    width: 49%;
+    height: 300px;
+}
+#iii{
+    margin-top: 45px;
+}
+.moder{
+    padding-right: 30px;
+}
+.tree img{
+    width: 100%;
+    margin-top: 100px;
+    padding: 0;
+}
+#pre{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.tbl span{
+    margin-left: 20px;
+}
+.tbl #grey{
+    color: grey;
+    font-size: 16px;
+}
+.ssylka a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 194, 27);
+    padding: 20px;
+}
+.ssylka{
+    text-align: center;
+    margin-top: 60px;
+}
+.phone{
+    background-image: url(../taun/fon_ost-1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.phone12{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    text-align: left;
+}
+.phone1, .phone2{
+    display: flex;
+    flex-direction: column;
+}
+.phone2{
+    margin-left: 10px;
+}
+#big{
+    font-size: 25px;
+}
+.phone2 input{
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.phone1 p{
+    padding-top: 25px;
+}
+.phone2 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 194, 27);
+    padding: 15px;
+    margin-top: 10px;
+}
+.bottom{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column
+}
+.yellow{
+    color: rgb(245, 194, 27);
+}
+.end{
+    background-image: url(../taun/fon_ost-1.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.end input{
+    height: 40px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.img img{
+    width: 30px;
+    margin-top: 20px;
+}
+.end a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(245, 194, 27);
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 625px;
+    margin-right: 625px;
+}
+.tbl{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.block img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+@media (max-width: 1400px) {
+    #hostel{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .itemImg img{
+        width: 550px;
+    }
+    .itemText{
+        margin-left: 150px;
+    }
+    .end a{
+        margin-left: 566px;
+        width: 238px;
+    }
+    #iii{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-image: url('../taun/header-bg-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    *{
+        margin: 0;
+        padding: 0%;
+    }
+    .itemText{
+        margin-left: 250px;
+    }
+    .moder{
+        margin-right: 200px;
+    }
+    iframe{
+        width: 100%;
+    }
+    #it1{
+        margin-top: 20px;
+    }
+    .phone12{
+        margin-left: 290px;
+    }
+    .end a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(245, 194, 27);
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 466px;
+    }
+}
+
+@media (max-width: 992px) { 
+    #hostel{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .moder{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #left{
+        margin-left: 105px;
+    }
+    .itemImg img{
+        width: 440px;
+        margin-top: 30px;
+        margin-left: 24px;
+    }
+    .tree img{
+        margin-top: 150px;
+    }
+    .phone12{
+        margin-left: 170px;
+    }
+    .end a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(245, 194, 27);
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 361px;
+        margin-right: 625px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #hostel{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+    }
+    .itemText{
+        width: 90vh;
+        padding-top: 50px;
+        margin-left: 0px;
+    }
+    #iii{
+        margin-top: 50px;
+    }
+    .phone12{
+        margin-left: 70px;
+    }
+    .end a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(245, 194, 27);
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 250px;
+        margin-right: 625px;
+    }
+}
+
+/* если экран устройства =< 576px то пускай работает */
+@media (max-width: 576px) {  
+    header{
+        height: 20vh;
+        flex-direction: column;
+    }
+    .left{
+        height: 50%;
+        align-items: center;
+    }
+    .right{
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .left img{
+        width: 100%;
+        height: 55px;
+    }
+    #it1{
+        margin-left: 45px;
+        width: 470px;
+    }
+    #left{
+        margin-left: 45px;
+        width: 470px;
+    }
+    .right img{
+        width: 15px;
+        height: 30px;
+    }
+    #hostel{
+        font-family: Verdana, Geneva, Tahoma, serif;
+    }
+    section .container>h1{
+        text-align: center;
+    }
+    section .container>p{
+        text-align: center;
+    }
+    .icons{
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 50px;
+    }
+    .icon{
+        padding: 20px;
+    }
+
+    .tbl{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+    }
+    .itemText{
+        width: 470px;
+    }
+    .itemText p{
+        text-align: center;
+    }
+    .itemImg img{
+        width: 500px;
+        height: 300px;
+    }
+    .moder h1{
+        width: 440px;
+    }
+    #cena{
+        margin-left: 170px;
+    }
+    #pre{
+        margin-left: 146px;
+    }
+    .phone12{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .phone2 input{
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+        width: 270px;
+        margin-left: 30px;
+
+    }
+    #bottom{
+        margin-bottom: 45px;
+    }
+    #itemt{
+        margin-top: 50px;
+    }
+    .phone2{
+        margin-top: 50px;
+    }
+    .phone2 a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(245, 194, 27);
+        padding: 15px;
+        margin-top: 10px;
+        width: 270px;
+        margin-left: 30px;
+    }
+    .phone2 p{
+        margin-right: 50px;
+    }
+    .end a{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(245, 194, 27);
+        padding: 15px;
+        margin-top: 10px;
+        margin-left: 122px;
+    }
+}
